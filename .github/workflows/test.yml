@@ -1,0 +1,13 @@
+name: my first workflow
+
+on: [push]
+jobs:
+  eun-shell-command:
+    runs-on: macos-latest
+    steps:
+      - name: echo a stribg
+      - run: echi "hello world"
+      -name: multiline script
+      - run: |
+          node -v
+          npm -v
