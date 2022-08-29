@@ -7,7 +7,19 @@ jobs:
     steps:
       - name: echo a string
       - run: echi "hello world"
-      -name: multiline script
+      - name: multiline script
       - run: |
           node -v
           npm -v
+
+#on: [push]
+#jobs:
+#  run-shell-command:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: echo a string
+#        run: echo "Hello World"
+#      - name: multiline script
+#        run: |
+#          node -v
+#          npm -v
