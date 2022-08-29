@@ -5,7 +5,7 @@ jobs:
   eun-shell-command:
     runs-on: macos-latest
     steps:
-      - name: echo a stribg
+      - name: echo a string
       - run: echi "hello world"
       -name: multiline script
       - run: |
