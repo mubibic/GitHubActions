@@ -1,0 +1,19 @@
+name: Benny
+age: 67
+fav song: "Crazy frog"
+key:
+  key1: wauw
+  key2: wauwawiiwaa
+  key3: nooot
+jsonObject: { key: wow, key2: owo}
+jobArray:
+  -item1
+  -item2
+  -item3
+myArray:
+  -item1
+  - {name: bob, age: 100}
+
+longtext: >
+  jwowowooowwowowowoowowowowowowowowowowduududududududuudduududuuduud
+nolftext: |
