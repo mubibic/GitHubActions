@@ -7,9 +7,6 @@ jobs:
     steps:
       - name: echo a string
       - run: echi "hello world"
-      - name: multiline script
-      - run: |
-          node -v
-          npm -v
+
 
 
